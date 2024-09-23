@@ -4,13 +4,13 @@
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-export const metadata = { title: 'Logout | ZoškaSnap'};
+export const metadata = { title: 'SignOut | ZoškaSnap'};
 
-export default function Logout() {
+export default function SingOut() {
 
   return (
     <Container>   
-        <Typography> Logout </Typography>
+        <Typography> Sign Out </Typography>
     </Container>
   );
 }

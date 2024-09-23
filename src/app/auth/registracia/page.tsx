@@ -4,13 +4,13 @@
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-export const metadata = { title: 'Registration | ZoškaSnap'};
+export const metadata = { title: 'Sign Up | ZoškaSnap'};
 
-export default function Registration() {
+export default function SignUp() {
 
   return (
     <Container>   
-        <Typography> Registration </Typography>
+        <Typography> Sign Up </Typography>
     </Container>
   );
 }
