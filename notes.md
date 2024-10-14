@@ -6,6 +6,9 @@ npm run dev – pusti server(developer mode)
 npm run build – spravy build(finalny, ked ideme dat na stranku)
 npm run start – pusti server s buildom
 ctrl c – ukonci server
+git clone = (url github repo)
+openssl rand -hex 32 = random 32bitovy kluc pre auth secret
+https://console.cloud.google.com/cloud-resource-manager = pre example google ID a secret
 
 
 <Container> - ako div + responzivita webu
@@ -28,3 +31,7 @@ github – cloud ulozisko kde mozu pracovat na projekte viaceri, uklada to chang
 vercel nam dal pomocou githubu stranku na web
 
 show structure - find first-time \( -name ".gitignore" -o -path "first-time/.next" -o -path "first-time/node_modules" -o -path "first-time/.git" \) -prune -o -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+
+
+
+.env = subor kde je kod pre autetifikaciu/registraciu pomocou facebooku, instagramu a googlu(emailu)
